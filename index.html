@@ -1,92 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Ejercicios de Programación Web</title>
-    <!-- Enlace a tu carpeta CSS por si quieres darle diseño después -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Actividad 1.- Ejercicios</title>
     <style>
-        /* Un diseño rápido y limpio integrado para que no se vea vacío */
         body {
+            background-color: #bae6fd;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f7f6;
-            color: #333;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
         }
 
         h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            letter-spacing: 0.5px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
         }
 
-        ul {
-            list-style: none;
-            padding: 0;
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
         }
 
-        li {
-            margin: 12px 0;
-        }
-
-        a {
+        .btn {
             display: block;
-            padding: 12px 15px;
-            background: #eef2f5;
-            color: #2980b9;
+            width: 160px; 
+            padding: 10px 15px;
+            background-color: #ffffff;
+            color: #0284c7; 
             text-decoration: none;
-            border-radius: 5px;
-            font-weight: 500;
-            transition: all 0.3s ease;
+            border-radius: 20px; 
+            font-weight: 600;
+            font-size: 14px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease;
         }
 
-        a:hover {
-            background: #3498db;
-            color: #fff;
-            transform: translateX(5px);
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #f0f9ff; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
     </style>
 </head>
-
 <body>
 
     <div class="container">
-        <header>
-            <h1>Portafolio de Ejercicios</h1>
-            <p>Bienvenido al repositorio de mis prácticas de clase de Programación Web.</p>
-        </header>
 
-        <main>
-            <nav>
-                <ul>
-                    <li><a href="ejercicio1.html">▶ Ejercicio 1</a></li>
-                    <li><a href="ejercicio2.html">▶ Ejercicio 2</a></li>
-                    <li><a href="ejercicio3.html">▶ Ejercicio 3</a></li>
-                    <li><a href="ejercicio4.html">▶ Ejercicio 4</a></li>
-                    <li><a href="ejercicio5.html">▶ Ejercicio 5</a></li>
-                    <li><a href="ejercicio6.html">▶ Ejercicio 6</a></li>
-                    <li><a href="ejercicio7.html">▶ Ejercicio 7</a></li>
-                    <li><a href="ejercicio8.html">▶ Ejercicio 8</a></li>
-                    <li><a href="ejercicio9.html">▶ Ejercicio 9</a></li>
-                    <li><a href="ejercicio10.html">▶ Ejercicio 10</a></li>
-                </ul>
-            </nav>
-        </main>
+        <h1>Actividad 1.- Ejercicios</h1>
+
+        <nav>
+            <a href="ejercicio1.html" class="btn">Ejercicio 1</a>
+            <a href="ejercicio2.html" class="btn">Ejercicio 2</a>
+            <a href="ejercicio3.html" class="btn">Ejercicio 3</a>
+            <a href="ejercicio4.html" class="btn">Ejercicio 4</a>
+            <a href="ejercicio5.html" class="btn">Ejercicio 5</a>
+            <a href="ejercicio6.html" class="btn">Ejercicio 6</a>
+            <a href="ejercicio7.html" class="btn">Ejercicio 7</a>
+            <a href="ejercicio8.html" class="btn">Ejercicio 8</a>
+            <a href="ejercicio9.html" class="btn">Ejercicio 9</a>
+            <a href="ejercicio10.html" class="btn">Ejercicio 10</a>
+        </nav>
     </div>
 
 </body>
-
 </html>
