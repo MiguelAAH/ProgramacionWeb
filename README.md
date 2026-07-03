@@ -1,6 +1,8 @@
 # ProgramacionWeb
 Ejercicios de mi clase de Programacion Web
 
+Alonso Heredia Miguel Alberto 22160992 Horario: 10:00 am a 1:00 pm
+
 - Ejercicio 1: Se realizo un Hola Mundo en HTML5.
 - Ejercicio 2: Se hizo uso de etiquetas y parrafos para aprender a dar presentación.
 - Ejercicio 3: Se utilizaron enlaces y aprendimos el como funcionan.
