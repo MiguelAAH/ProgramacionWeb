@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ejercicio16.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <div class="contenedor-calculadora">
+        <h1>Calculadora web</h1>
+        <label> Ingresa el primer numero:</label>
+        <input type="text" id="numero1" required>
+        <br>
+        <label> Ingresa el segundo numero:</label>
+        <input type="text" id="numero2" required>
+        <br>
+        <button class="sumar" value="sumar" onclick="calcularOperacion('suma')">Sumar</button>
+        <button class="restar" value="restar" onclick="calcularOperacion('resta')">Restar</button>
+        <button class="multiplicar" value="multiplicar" onclick="calcularOperacion('multiplica')">Multiplicar</button>
+        <button class="dividir" value="dividir" onclick="calcularOperacion('divide')">Dividir</button>
+        <br>
+        <label> Resultado:</label>
+        <input type="number" id="num3" readonly name="num3">
+    </div>
+
+    <script src="js/ejercicio16.js"></script>
+</body>
+
+</html>
